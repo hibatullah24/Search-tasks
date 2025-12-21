@@ -96,3 +96,30 @@ In game development, C# is commonly used with the Unity game engine. Unity relie
 D. Other Applications
 
 Beyond web, mobile, and games, C# is widely used in cloud services, backend systems, enterprise applications, desktop software, automation tools, and developer tooling such as code analyzers and refactoring tools. These applications are supported by the rich libraries and tools available in the .NET platform.
+
+--------------------------------------------------------------
+
+6) Software Development Kit (SDK) for C#
+
+- What is an SDK?
+An SDK (Software Development Kit) is a collection of tools and resources that developers use to build software for a specific platform. It usually includes libraries, compilers, build tools, templates, and documentation, all packaged together to make application development easier and more efficient.
+
+- What is the SDK for C#?
+The main SDK used for developing C# applications is the .NET SDK, since C# is one of the primary programming languages of the .NET platform. According to Microsoft, the .NET SDK provides all the tools and libraries needed to create, build, test, and run .NET applications and libraries.
+
+Modern C# projects use SDK-style projects, which rely on predefined project SDKs. These SDKs include built-in MSBuild tasks and targets that simplify compiling, packaging, and publishing applications without complex configuration.
+
+- What does the .NET SDK contain?
+At a high level, the .NET SDK includes:
+
+A. dotnet CLI: A command-line tool used to create, build, run, test, and publish applications
+
+B. Compiler toolchain: Includes the C# compiler (Roslyn)
+
+C. .NET runtime and base libraries: Required to execute C# applications
+
+D. Project system (MSBuild): Handles building, packaging, and deployment
+
+E. Project templates: Ready-made templates for console apps, web apps, APIs, and cross-platform apps (such as .NET MAUI)
+
+Although the exact components may vary depending on the installed version or workloads, these elements represent the core parts of the .NET SDK.
