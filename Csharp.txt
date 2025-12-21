@@ -123,3 +123,8 @@ D. Project system (MSBuild): Handles building, packaging, and deployment
 E. Project templates: Ready-made templates for console apps, web apps, APIs, and cross-platform apps (such as .NET MAUI)
 
 Although the exact components may vary depending on the installed version or workloads, these elements represent the core parts of the .NET SDK.
+
+-----------------------------------------------------------------
+7) Framework: what framework does C# use?
+
+Historically many people say “C# uses .NET Framework” (older Windows-focused). Today, the modern platform is typically just called .NET (cross-platform). C# is the language; .NET is the runtime + libraries + tooling ecosystem you build on.
