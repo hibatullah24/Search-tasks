@@ -72,3 +72,27 @@ B. Memory overhead can be higher than low-level unmanaged languages because itâ€
 C. AOT constraints: Native AOT can have limitations depending on app type and dynamic features. 
 
 **Weaknesses often depend on the project typeâ€”desktop vs web vs mobile vs embedded.
+
+----------------------------------------------------------------
+5) Applications of C#
+
+C# is a versatile programming language that is used to develop a wide range of applications across different platforms, mainly through the .NET ecosystem.
+
+A. Web Applications and APIs
+
+C# is widely used for building web applications and web services.
+ASP.NET Core is a cross-platform framework that allows developers to create modern, high-performance web applications and RESTful APIs.
+Blazor enables developers to build interactive web user interfaces using C# instead of JavaScript, supporting different hosting models such as server-side and client-side applications.
+
+B. Mobile and Desktop Applications
+
+C# is also used to build mobile and desktop applications.
+.NET MAUI allows developers to create native cross-platform applications for Android, iOS, Windows, and macOS using a single C# codebase, reducing development time and effort.
+
+C. Game Development
+
+In game development, C# is commonly used with the Unity game engine. Unity relies heavily on C# scripts for game logic, behavior control, and interaction, and it provides extensive documentation and APIs to support game developers.
+
+D. Other Applications
+
+Beyond web, mobile, and games, C# is widely used in cloud services, backend systems, enterprise applications, desktop software, automation tools, and developer tooling such as code analyzers and refactoring tools. These applications are supported by the rich libraries and tools available in the .NET platform.
