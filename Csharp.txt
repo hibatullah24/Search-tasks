@@ -47,3 +47,28 @@ C# is a compiled language, not an interpreted one that runs code line by line. F
 
 Simple execution flow diagram (description):
 C# Source Code (.cs) → C# Compiler (Roslyn) → Intermediate Language (IL) → .NET Runtime (CLR) → Native Machine Code → Program Runs
+
+------------------------------------------------------------------
+4) Strengths and weaknesses
+
+Strengths
+
+A. High developer productivity: modern language features + strong tooling (Visual Studio, analyzers, refactoring support via Roslyn). 
+
+B. Performance options: JIT performance optimizations and the option for AOT in some scenarios. 
+
+C. Cross-platform ecosystem: C# is deeply integrated with the modern .NET platform for Windows, Linux, and macOS development. 
+
+D. Large application ecosystem: web, APIs, desktop, mobile, cloud, games, etc. (see Applications below). 
+
+
+Weaknesses (common, practical limitations)
+
+A. Runtime/deployment complexity compared with single-binary native languages (choices: framework-dependent vs self-contained; runtime versions; AOT tradeoffs). 
+
+B. Memory overhead can be higher than low-level unmanaged languages because it’s a managed runtime with garbage collection (though it varies by workload). 
+
+
+C. AOT constraints: Native AOT can have limitations depending on app type and dynamic features. 
+
+**Weaknesses often depend on the project type—desktop vs web vs mobile vs embedded.
