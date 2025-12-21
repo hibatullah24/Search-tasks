@@ -1,0 +1,14 @@
+1- Invention of C#
+
+Why was C# invented?
+
+C# was developed to provide a modern, simple, and productive programming language for building applications on Microsoft’s .NET platform. Its design combines familiar syntax from languages such as C, C++, and Java with safer programming features, including strong type safety and automatic memory management through garbage collection.
+In addition, C# was created to support component-based, enterprise-level, and scalable application development. According to the ECMA C# Language Specification, the main design goals of C# are to be simple, modern, general-purpose, and object-oriented.
+
+When was C# invented and released?
+
+C# was developed by Microsoft between 1999 and 2000 and was publicly introduced in 2000 as part of the .NET initiative. In the early 2000s, the language was formally standardized by Ecma International under the specification ECMA-334. Since then, C# has continuously evolved, with new versions released to improve performance, security, and developer productivity.
+
+How was C# developed?
+
+C# was designed at Microsoft as part of the broader .NET framework initiative, with Anders Hejlsberg serving as the lead designer. To ensure openness and long-term stability, the language was later submitted to Ecma International, where it became an internationally recognized standard (ECMA-334).
