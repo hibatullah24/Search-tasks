@@ -98,3 +98,25 @@ END
 * scans through a list of numbers
 * keeps track of the smallest value found
 * It compares each number with the current smallest value and updates it when a smaller number is encountered
+------------------------------------------------------
+Task 4: Count Positive and Negative Numbers
+START
+READ numbers
+SET positive = 0
+SET negative = 0
+
+FOR each number
+    IF number > 0
+        positive = positive + 1
+    ELSE IF number < 0
+        negative = negative + 1
+    END IF
+END FOR
+
+OUTPUT positive
+OUTPUT negative
+END
+
+* list of numbers and counts how many values are positive and how many are negative
+* Zero values are ignored
+* The final counts are then output
