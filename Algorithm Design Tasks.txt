@@ -162,3 +162,23 @@ END
 
 * identifies all prime numbers from 2 up to a given number 
 * For each number, it checks whether it is divisible by any smaller number * If not divisible, the number is considered prime and added to the result
+--------------------------------------------------
+Task 7: Merge Two Sorted Lists
+
+START
+READ list A
+READ list B
+CREATE empty list C
+
+WHILE A and B not empty
+    TAKE smaller number
+    ADD it to C
+END WHILE
+
+ADD remaining numbers to C
+OUTPUT C
+END
+
+* takes two already sorted lists and combines them into a single sorted list
+* It compares elements from both lists and adds the smaller one to the new list until all elements are merged
+
