@@ -222,3 +222,28 @@ END
 * it compares the word with its reversed form
 * if both are the same, the word is a palindrome
 * the result is displayed to the user
+
+---------------------------------------------------------------
+Task 10: Generate Fibonacci Numbers
+START
+READ N
+SET first = 0
+SET second = 1
+
+OUTPUT first
+OUTPUT second
+
+REPEAT N times
+    next = first + second
+    OUTPUT next
+    first = second
+    second = next
+END REPEAT
+
+END
+
+* The algorithm reads a number N
+* It starts with the first two Fibonacci numbers: 0 and 1
+* It generates the next number by adding the previous two numbers
+* This process continues until N numbers are generated
+*Each Fibonacci number is displayed in order
