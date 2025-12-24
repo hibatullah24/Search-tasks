@@ -120,3 +120,19 @@ END
 * list of numbers and counts how many values are positive and how many are negative
 * Zero values are ignored
 * The final counts are then output
+-----------------------------------------------------
+Task 5: Remove Duplicates from a List
+START
+READ numbers
+CREATE empty list unique
+
+FOR each number
+    IF number not in unique
+        ADD number to unique
+    END IF
+END FOR
+
+OUTPUT unique
+END
+
+* creates a new list that stores only unique values from the original list * Each element is checked before insertion to ensure duplicates are not  added 
