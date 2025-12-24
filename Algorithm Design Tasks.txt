@@ -139,26 +139,24 @@ END
 ----------------------------------------------------
 Task 6: Prime Numbers
 START
-READ integer N
-CREATE empty list primes
+READ N
 
-FOR i from 2 to N
-    SET isPrime = TRUE
+FOR number from 2 to N
+    SET prime = true
 
-    FOR j from 2 to sqrt(i)
-        IF i MOD j = 0 THEN
-            isPrime = FALSE
-            BREAK
+    FOR divisor from 2 to number - 1
+        IF number divided by divisor equals 0
+            prime = false
         END IF
     END FOR
 
-    IF isPrime = TRUE THEN
-        ADD i to primes
+    IF prime is true
+        OUTPUT number
     END IF
 END FOR
 
-OUTPUT primes
 END
+
 
 * identifies all prime numbers from 2 up to a given number 
 * For each number, it checks whether it is divisible by any smaller number * If not divisible, the number is considered prime and added to the result
@@ -181,4 +179,28 @@ END
 
 * takes two already sorted lists and combines them into a single sorted list
 * It compares elements from both lists and adds the smaller one to the new list until all elements are merged
+-----------------------------------------
+Task 8: Find the Second Largest Number
+START
+READ numbers
+SET largest = very small
+SET second = very small
 
+FOR each number
+    IF number > largest
+        second = largest
+        largest = number
+    END IF
+END FOR
+
+OUTPUT second
+END
+
+* the algorithm reads a list of numbers.
+* it sets the largest and second largest values to very small numbers 
+* it checks each number in the list one by one.
+* if a number is greater than the current largest value, the largest value is moved to second largest. 
+* the new number becomes the largest value
+* after checking all numbers, the algorithm outputs the second largest number.
+
+----------------------------------------------
