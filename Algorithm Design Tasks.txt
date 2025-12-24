@@ -46,3 +46,23 @@ Pseudocode:
 IF found = TRUE THEN
     OUTPUT "Character found"
 ELSE
+
+-----------------------------------------------
+Task 1: Calculate Average
+START
+READ list L
+SET sum = 0
+SET count = size of L
+
+FOR each value x in L
+    sum = sum + x
+END FOR
+
+average = sum / count
+OUTPUT average
+END
+
+* read the list of numbers
+* calculates the total sum of all elements 
+* divides the sum by the number of elements to find the average 
+* output the average value
