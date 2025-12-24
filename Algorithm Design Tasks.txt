@@ -136,3 +136,29 @@ OUTPUT unique
 END
 
 * creates a new list that stores only unique values from the original list * Each element is checked before insertion to ensure duplicates are not  added 
+----------------------------------------------------
+Task 6: Prime Numbers
+START
+READ integer N
+CREATE empty list primes
+
+FOR i from 2 to N
+    SET isPrime = TRUE
+
+    FOR j from 2 to sqrt(i)
+        IF i MOD j = 0 THEN
+            isPrime = FALSE
+            BREAK
+        END IF
+    END FOR
+
+    IF isPrime = TRUE THEN
+        ADD i to primes
+    END IF
+END FOR
+
+OUTPUT primes
+END
+
+* identifies all prime numbers from 2 up to a given number 
+* For each number, it checks whether it is divisible by any smaller number * If not divisible, the number is considered prime and added to the result
