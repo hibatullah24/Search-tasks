@@ -1,0 +1,48 @@
+1- What is Pseudocode?
+Pseudocode is an informal, human-readable description of an algorithm.
+It uses plain English mixed with programming-like statements to explain the logic of a solution without using the syntax of any specific programming language.
+
+- it focuses on what the algorithm does, not how it is coded. 
+
+2- Why we use pseudocode
+ * to plan the logic of a program before writing actual code
+ * to understand and explain algorithms easily 
+ * to communicate ideas between programmers and non programmers 
+ * to avoid syntax errors while thinking about logic 
+
+3- When we use pseudocode
+ * Before coding a program 
+ * in algorithm design and problem-solving stages 
+ * in exams, assignments, and interviews
+ * when explaining an algorithm in documentation or reports 
+
+4- How to Write Pseudocode to Represent an Algorithm
+ 
+ There is no strict rule, but good pseudocode should:
+  * be clear and simple
+  * use structured steps
+  * avoid language-specific syntax
+  * use common keywords such as:
+   - START, END
+   - READ, INPUT, OUTPUT
+   - IF, ELSE
+   - FOR, WHILE
+  * be written step by step, logically
+
+5- Example: Check if a String Contains a Specific Character
+Problem: Check whether a given string contains the character '@'.
+Pseudocode:
+ START
+ READ string
+ SET found = FALSE 
+ 
+ FOR each character in string 
+   IF character = '@' THEN 
+     found = TRUE
+     EXIT LOOP
+   END IF
+ END FOR
+
+IF found = TRUE THEN
+    OUTPUT "Character found"
+ELSE
