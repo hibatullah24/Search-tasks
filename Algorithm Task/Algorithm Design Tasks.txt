@@ -152,25 +152,24 @@ parameters:
 Task 5: Remove Duplicates from a List
 START
 READ numbers
-CREATE empty list unique
+SET uniqueList = empty list
 
-FOR each number
-    IF number not in unique
-        ADD number to unique
+FOR each number in numbers
+    IF number NOT IN uniqueList
+        ADD number to uniqueList
     END IF
 END FOR
 
-OUTPUT unique
+OUTPUT uniqueList
 END
 
-* creates a new list that stores only unique values from the original list * Each element is checked before insertion to ensure duplicates are not  added 
 
 parameter:
-- input 
-- output
-- variable
-- loop
-- function
+- input : list
+- output : uniqueList
+- variable: numbers, uniqueList, number
+- loop : for loop 
+- condition : number NOT IN uniqueList
 ----------------------------------------------------
 Task 6: Prime Numbers
 START
