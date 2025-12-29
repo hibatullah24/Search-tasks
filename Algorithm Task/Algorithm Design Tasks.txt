@@ -179,12 +179,12 @@ FOR number from 2 to N
     SET prime = true
 
     FOR divisor from 2 to number - 1
-        IF number divided by divisor equals 0
+        IF number % divisor == 0
             prime = false
         END IF
     END FOR
 
-    IF prime is true
+    IF prime == true
         OUTPUT number
     END IF
 END FOR
@@ -192,11 +192,14 @@ END FOR
 END
 
 
-* identifies all prime numbers from 2 up to a given number 
-* For each number, it checks whether it is divisible by any smaller number * If not divisible, the number is considered prime and added to the result
 
 parameter: 
-- 
+- variable: N, number, divisor, prime
+- Input: N
+- Output: N
+- Condition: number % divisor == 0, prime ==true
+- Loop: for loop [2 to number -2]
+
 --------------------------------------------------
 Task 7: Merge Two Sorted Lists
 
