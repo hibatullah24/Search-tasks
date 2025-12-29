@@ -120,32 +120,34 @@ parameters:
 - loop: numbers 
 ------------------------------------------------------
 Task 4: Count Positive and Negative Numbers
-START
-READ numbers
-SET positive = 0
-SET negative = 0
+START 
+PositiveCount = 0 
+NegativeCount = 0
+TotalNumbers = 0
 
-FOR each number
-    IF number > 0
-        positive = positive + 1
-    ELSE IF number < 0
-        negative = negative + 1
-    END IF
-END FOR
+INPUT Number = N
+READ N 
 
-OUTPUT positive
-OUTPUT negative
-END
+IF Number > 0 THEN:
+  PositiveCount = PositiveCount + 1
+
+ELSE  Number < 0 THEN:
+  NegativeCount = NegativeCount + 1
+
+TotalNumbers = TotalNumbers + 1
+
+End 
+
 
 * list of numbers and counts how many values are positive and how many are negative
 * Zero values are ignored
 * The final counts are then output
 
 parameters:
-- input 
-- output 
-- variable 
-- function
+- input : N , Number 
+- output : PositiveCount, NegativeCount 
+- Condition : TotalNumbers < N
+- Loop  
 -----------------------------------------------------
 Task 5: Remove Duplicates from a List
 START
