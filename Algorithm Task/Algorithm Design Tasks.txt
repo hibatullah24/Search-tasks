@@ -65,6 +65,13 @@ END
 * calculates the total sum of all elements 
 * divides the sum by the number of elements to find the average 
 * output the average value
+
+
+parameter:
+- input: list
+-output : average
+-variable: sum , number, average, total numbers
+- loop 
 -----------------------------------------------------
 Task 2: Even or Odd
 START
@@ -80,6 +87,12 @@ END
 
 * reads number and checks whether it is divisible by 2 
 * if the reminder is zero the number is even otherwise it is odd 
+
+parameter:
+- input : number 
+- variable : number 
+- condition : number %2 == 0 
+- output : even , odd
 ------------------------------------------------------
 Task 3: Find the Smallest Number in a List
 START
@@ -98,6 +111,13 @@ END
 * scans through a list of numbers
 * keeps track of the smallest value found
 * It compares each number with the current smallest value and updates it when a smaller number is encountered
+
+parameters:
+- input : list
+- variable : smallest, number
+- condition : number < smallest
+- output : smallest
+- loop: numbers 
 ------------------------------------------------------
 Task 4: Count Positive and Negative Numbers
 START
@@ -120,6 +140,12 @@ END
 * list of numbers and counts how many values are positive and how many are negative
 * Zero values are ignored
 * The final counts are then output
+
+parameters:
+- input 
+- output 
+- variable 
+- function
 -----------------------------------------------------
 Task 5: Remove Duplicates from a List
 START
@@ -136,6 +162,13 @@ OUTPUT unique
 END
 
 * creates a new list that stores only unique values from the original list * Each element is checked before insertion to ensure duplicates are not  added 
+
+parameter:
+- input 
+- output
+- variable
+- loop
+- function
 ----------------------------------------------------
 Task 6: Prime Numbers
 START
@@ -160,6 +193,9 @@ END
 
 * identifies all prime numbers from 2 up to a given number 
 * For each number, it checks whether it is divisible by any smaller number * If not divisible, the number is considered prime and added to the result
+
+parameter: 
+- 
 --------------------------------------------------
 Task 7: Merge Two Sorted Lists
 
@@ -204,3 +240,35 @@ END
 * after checking all numbers, the algorithm outputs the second largest number.
 
 ----------------------------------------------
+Task 9: Palindrome String
+START
+READ word
+MAKE word lowercase
+
+IF word equals reversed word
+    OUTPUT "Palindrome"
+ELSE
+    OUTPUT "Not Palindrome"
+END IF
+
+END
+
+-----------------------------
+Task 10: Fibonacci Numbers
+START
+READ N
+SET first = 0
+SET second = 1
+
+OUTPUT first
+OUTPUT second
+
+REPEAT N times
+    next = first + second
+    OUTPUT next
+    first = second
+    second = next
+END REPEAT
+
+END
+
